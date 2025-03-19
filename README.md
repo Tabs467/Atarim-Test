@@ -59,7 +59,7 @@ php artisan test
 I used Postman, if using this, ensure to add this header to each request:
 
 ```sh
-application/json: Accept
+Accept: application/json
 ```
 
 This prevents Postman from ignoring validation JSON responses.
