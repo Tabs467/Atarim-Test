@@ -45,7 +45,7 @@ php artisan serve
 ### Run automated jobs
 
 ```sh
-php artisan schedule:run
+php artisan schedule:work
 ```
 
 ### Run automated tests
