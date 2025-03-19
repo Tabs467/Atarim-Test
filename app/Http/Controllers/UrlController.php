@@ -50,6 +50,7 @@ class UrlController extends Controller
      */
     public function show(Request $request)
     {
+        // Do not validate size here as user can optionally include "http://short.est/"
         $validated = $request->validate([
             'url' => 'required',
         ]);
